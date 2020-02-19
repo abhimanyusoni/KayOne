@@ -1,0 +1,233 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+	background-color: #292929;
+	height: 40px;
+	color: white;
+}
+
+.container{
+	width: 70%;
+	padding-top: 5px; 
+}
+
+.top-container{
+	width: 70%;
+	margin: auto;
+}
+
+.contact{
+	font-size: 0.65rem;
+	font-weight: bold;
+}
+
+.text-light{
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+
+.title-images{
+	width: 30%;
+	padding-right: 10px;
+}
+
+nav{
+	padding-left: 0;
+}
+
+.logobarDropdown{
+	font-weight: 900;
+	font-size: 0.85rem;
+}
+
+.search-container{
+
+	padding-top: 20px;
+}
+
+.search-input{
+	width: 90%;
+	font-size: 12px;
+	padding: 6px 24px;
+	border:1px solid #bfbfbf;
+}
+
+.card-title{
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 10%;
+	margin-left: 18%;
+}
+
+.card-img{
+	object-fit: fill;
+}
+
+.vl{
+	border-left: 3px solid orange;
+  	height: 110px;
+  	position: absolute;
+  	margin-top:130px;
+  	margin-left: 14.8%;
+  	top: 0;
+}
+
+.body-container{
+	width: 70%;
+	margin: auto;
+}
+
+@media screen and (max-width: 990px) {
+	.search-container{
+		padding-bottom: 30px;
+
+	}
+
+	#title{
+		height: 80px;
+	}
+
+	.card-img{
+		height: 300px;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+	h5{
+		font-size: 75%;
+
+	}
+	.vl{
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#title{
+		height: 120px;
+	}
+
+	.list-inline{
+		display: inline-grid;
+	}
+
+	.title-images{
+		width: 30%;
+		margin: 10px auto;
+	}
+
+	.item2{
+		margin-top: -10px;
+	}
+
+	.inlineItems{
+		vertical-align: all;
+	}
+	.aboutUs:after{
+		visibility: hidden;
+	}
+	.company:after{
+		visibility: hidden;
+	}
+	.company{
+		padding-bottom: 20px;
+		padding-left: 0;
+	}
+	.vl{
+		visibility: hidden;
+	}
+	.card-title{
+		margin: 28% 37%;
+
+		font-size: 1rem;
+	}
+
+}
+
+.cardButton{
+	background-color: orange;
+	border: none;
+	font-weight: 700;
+	font-size: 0.75rem;
+}
+
+.cardButton:hover{
+	background-color: #ff8000;
+}
+
+.myteam1{
+	margin: 3rem 1rem;
+}
+
+.myteam2{
+	margin: 3rem 1rem;
+}
+
+#footer{
+	background-color: #292929;
+}
+
+.bottom-container{
+	width: 70%;
+	margin: auto;
+	color: white;
+	padding: 4rem 1rem;
+}
+
+.about{
+	
+	border-bottom: solid 2px orange;
+	padding-bottom: 3px;
+
+}
+
+.aboutUs{
+	color: white;
+}
+
+.footerMenu{
+	color: white;
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+
+.footerMenu:hover{
+	color: orange;
+}
+
+.final-footer{
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 0.70rem;
+	padding: 10px;
+}
+
+.Copyright{
+	margin: 0;
+}
+
+.aboutUs:after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 1px;
+  height: 150px;
+  top: 0px;
+  left: 95%;
+  display: block;
+}
+
+.company:after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 1px;
+  height: 150px;
+  top: 0px;
+  left: 95%;
+  display: block;
+}
