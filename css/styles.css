@@ -1,233 +1,177 @@
-body{
-	font-family: 'Montserrat', sans-serif;
-}
-
 #title{
-	background-color: #292929;
-	height: 40px;
-	color: white;
+	background-color: #303030;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
-.container{
-	width: 70%;
-	padding-top: 5px; 
+
+.float-left{
+	margin-right: 32px;
+	margin-top: 12px;
+	font-size: 12px;
 }
 
-.top-container{
-	width: 70%;
-	margin: auto;
+
+.top-Navbar{
+	font-weight: bold;
+	font-size: 12px;
+	
 }
 
 .contact{
-	font-size: 0.65rem;
-	font-weight: bold;
+	margin-top: 2px;
 }
 
-.text-light{
-	font-size: 0.75rem;
-	font-weight: bold;
+.middle-navbar{
+	font-family: 'Nunito Sans', sans-serif;
+	padding: 10px 0;
+	font-weight: 700;
+
 }
 
-.title-images{
-	width: 30%;
-	padding-right: 10px;
-}
+.navbar-brand{
+	margin-right: 2rem;
 
-nav{
-	padding-left: 0;
-}
-
-.logobarDropdown{
-	font-weight: 900;
-	font-size: 0.85rem;
 }
 
 .search-container{
-
-	padding-top: 20px;
+	margin-top: 24px;
+	margin-right: 24px;
+	float: right;
 }
 
 .search-input{
-	width: 90%;
-	font-size: 12px;
-	padding: 6px 24px;
-	border:1px solid #bfbfbf;
+	border: 1px solid gray;
 }
 
-.card-title{
-	font-size: 30px;
-	font-weight: 700;
-	margin-top: 10%;
-	margin-left: 18%;
-}
 
-.card-img{
-	object-fit: fill;
-}
+@media (min-width: 768px) and (max-width: 1023px){
+	.top-Navbar{
+		float: left;
+		margin-left: -15px;
+	}
 
-.vl{
-	border-left: 3px solid orange;
-  	height: 110px;
-  	position: absolute;
-  	margin-top:130px;
-  	margin-left: 14.8%;
-  	top: 0;
-}
+	.menu-list {
+  	display: inline-block;
+  	padding-top: 0px;
+  	list-style-type: none;
+	}
 
-.body-container{
-	width: 70%;
-	margin: auto;
-}
+	.menu-list-item {
+  	display: inline-block;
+  	padding-right: 30px;
+  	font-size: 12px;
+  	letter-spacing: 2px;
+	}
 
-@media screen and (max-width: 990px) {
+	.menu-list-item a {
+  	display: inline-block;
+  	cursor: pointer;
+	}
+
 	.search-container{
-		padding-bottom: 30px;
-
+		margin-top: -54px;
+		margin-right: 90px;
 	}
 
-	#title{
-		height: 80px;
+	.border{
+		width: 100%;
 	}
 
-	.card-img{
-		height: 300px;
-	}
 
 }
 
-@media screen and (max-width: 992px){
-	h5{
-		font-size: 75%;
-
-	}
-	.vl{
-		margin-top: 80px;
-	}
+.banner{
+	position: relative;
 }
 
-@media screen and (max-width: 768px){
-	#title{
-		height: 120px;
-	}
-
-	.list-inline{
-		display: inline-grid;
-	}
-
-	.title-images{
-		width: 30%;
-		margin: 10px auto;
-	}
-
-	.item2{
-		margin-top: -10px;
-	}
-
-	.inlineItems{
-		vertical-align: all;
-	}
-	.aboutUs:after{
-		visibility: hidden;
-	}
-	.company:after{
-		visibility: hidden;
-	}
-	.company{
-		padding-bottom: 20px;
-		padding-left: 0;
-	}
-	.vl{
-		visibility: hidden;
-	}
-	.card-title{
-		margin: 28% 37%;
-
-		font-size: 1rem;
-	}
-
-}
-
-.cardButton{
-	background-color: orange;
-	border: none;
+.breadcrumb{
+	padding: 5rem 0 4rem;
 	font-weight: 700;
-	font-size: 0.75rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
 }
 
-.cardButton:hover{
-	background-color: #ff8000;
+.breadcrumb-item+.breadcrumb-item::before{
+	content: '>';
+	color: orange;
 }
 
-.myteam1{
-	margin: 3rem 1rem;
+.name{
+	font-weight: 700;
 }
 
-.myteam2{
-	margin: 3rem 1rem;
+.myTeam{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.cardbutton{
+	background-color: orange;
+	border:none;
+	font-weight: bold;
+	padding: 8px 25px;
+}
+
+.cardbutton:hover{
+	background-color: #ff6c03;
+}
+
+@media (min-width: 1024px) and (max-width: 1364px) {
+	.border{
+		width: 100%;
+	}
 }
 
 #footer{
-	background-color: #292929;
-}
-
-.bottom-container{
-	width: 70%;
-	margin: auto;
+	background-color: #303030;
 	color: white;
-	padding: 4rem 1rem;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 .about{
-	
 	border-bottom: solid 2px orange;
 	padding-bottom: 3px;
 
+
 }
 
-.aboutUs{
-	color: white;
+.footer-text{
+	font-size: 14px;
 }
 
 .footerMenu{
+	font-size: 14px;
+	font-weight: 700;
 	color: white;
-	font-size: 0.75rem;
-	font-weight: bold;
 }
 
 .footerMenu:hover{
 	color: orange;
 }
 
+.division:after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 1px;
+  height: 150px;
+  top: 20%;
+  left: 95%;
+  display: block;
+}
+
 .final-footer{
+	font-family: 'Nunito Sans', sans-serif;
 	background-color: black;
-	text-align: center;
 	color: white;
-	font-size: 0.70rem;
-	padding: 10px;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-align: center;
+	padding: 12px;
 }
 
-.Copyright{
-	margin: 0;
-}
-
-.aboutUs:after {
-  content: "";
-  background-color: #fff;
-  position: absolute;
-  width: 1px;
-  height: 150px;
-  top: 0px;
-  left: 95%;
-  display: block;
-}
-
-.company:after {
-  content: "";
-  background-color: #fff;
-  position: absolute;
-  width: 1px;
-  height: 150px;
-  top: 0px;
-  left: 95%;
-  display: block;
+@media screen and (max-width: 400px){
+    .name{
+        font-size: 40px !important;
+    }  
 }
