@@ -217,4 +217,22 @@
  		font-size: 1.25rem;
  	}
 
+ 	.float-right{
+ 		display: none;
+ 	}
+
+ 	.contact1{
+ 		text-align: right;
+ 		margin-top: -50px;
+ 		margin-right: -25px;
+ 		font-size: 0.75rem;
+ 	}
+
+ 	.contact2{
+ 		text-align: right;
+ 		margin-top: -30px;
+ 		margin-right: -25px;
+ 		font-size: 0.75rem;
+ 	}
+
  }
