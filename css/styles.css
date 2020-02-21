@@ -212,6 +212,9 @@
   		display: none;
   	}
  	
- 	
+ 	.breadcrumb{
+ 		padding: 2rem 0 1rem;
+ 		font-size: 1.25rem;
+ 	}
 
  }
